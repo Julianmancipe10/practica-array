@@ -11,3 +11,9 @@ let secuencianumerica = array.from({length: 5}, function(_,index) {
     return index + 1
 });
 console.log(secuencianumerica);
+//array utilizando array fill()
+let longitud = 5;
+let valor = 10;
+let arrayrepetido = new Array(longitud).fill(valor);
+console.log(arrayrepetido); 
+
