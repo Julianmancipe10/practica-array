@@ -76,3 +76,8 @@ console.log(arrayComoString);
 let arrayseccion = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let subseccion = array.slice(-3);
 console.log("Subsección del array:", subseccion);
+//Eliminacion  de una porción del array sin modificar el original usando slice()
+let originasinmodificarlArray = [1, 2, 3, 4, 5];
+let removedItems = originalArray.slice(2, 4); 
+console.log("Elementos eliminados:", removedItems);
+console.log("Original array:",originasinmodificarlArray);
