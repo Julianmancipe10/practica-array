@@ -25,6 +25,8 @@ let array1 =[1,2,3];
 let array2 =[4,5,6];
 let combinacionarray = [...array1,...array2];
 console.log(combinacionarray);
+//array utilizando set y spread 
+let arrayduplicados =[50,50,70,80,90,90];
+let arraysinduplicados =[...new Set(arrayduplicados)];
+console.log(arraysinduplicados);
 
-
- 
