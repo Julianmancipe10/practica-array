@@ -38,6 +38,13 @@ function generarArrayAleatorio() {
     }
     return arrayGenerado;
   }
-  let arrayGenerado = generarArrayAleatorio();
-  console.log(arrayGenerado);
+let arrayGenerado = generarArrayAleatorio();
+console.log(arrayGenerado);
+//  longitud de ub array
+let Array = [77, 90, 30, 47, 50];
+let longitudarray = Array.length;
+console.log("La longitud del array es: " + longitud);
+
+
+
   
