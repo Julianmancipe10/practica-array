@@ -64,3 +64,6 @@ console.log("Array después de agregar al principio:", arrayeliminacion);
 let primerElementoEliminado = arrayeliminacion.shift();
 console.log("Elemento eliminado al principio:", primerElementoEliminado);
 console.log("Array después de eliminar el primer elemento:", arrayeliminacion);
+//Para obtener una opcion del array arrayeliminacion  se utiliza slice()
+let porcionArray = arrayeliminacion.slice(1, 3);
+console.log("Porción del array:", porcionArray);
