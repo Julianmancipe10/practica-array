@@ -16,4 +16,10 @@ let longitud = 5;
 let valor = 10;
 let arrayrepetido = new Array(longitud).fill(valor);
 console.log(arrayrepetido); 
+//array con string.split()
+let cadenaTexto = "Hola amigos, me llamo Julian";
+let arrayTexto = cadenaTexto.split(" ");
+console.log(arrayTexto);
 
+
+ 
