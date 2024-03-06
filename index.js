@@ -20,6 +20,11 @@ console.log(arrayrepetido);
 let cadenaTexto = "Hola amigos, me llamo Julian";
 let arrayTexto = cadenaTexto.split(" ");
 console.log(arrayTexto);
+//array con string.split(...)
+let array1 =[1,2,3];
+let array2 =[4,5,6];
+let combinacionarray = [...array1,...array2];
+console.log(combinacionarray);
 
 
  
