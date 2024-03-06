@@ -29,4 +29,15 @@ console.log(combinacionarray);
 let arrayduplicados =[50,50,70,80,90,90];
 let arraysinduplicados =[...new Set(arrayduplicados)];
 console.log(arraysinduplicados);
-
+//creaciom de un array con valores dinamicos echos conn una funcion 
+function generarArrayAleatorio() {
+    let longitud = Math.floor(Math.random() * 10) + 1;
+    let arrayGenerado = [];
+    for (let i = 0; i < longitud; i++) {
+      arrayGenerado.push(Math.random() * 100); 
+    }
+    return arrayGenerado;
+  }
+  let arrayGenerado = generarArrayAleatorio();
+  console.log(arrayGenerado);
+  
