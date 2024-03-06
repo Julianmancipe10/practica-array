@@ -44,7 +44,10 @@ console.log(arrayGenerado);
 let Array = [77, 90, 30, 47, 50];
 let longitudarray = Array.length;
 console.log("La longitud del array es: " + longitud);
-
-
+//agregar elemento final al array utilizando push vamos a agrgarle esto al array llamdao arrayelementos
+arrayelementos.push(6)
+arrayelementos.push(7)
+arrayelementos.push(8)
+console.log("arrays agregados:", arrayelementos);
 
   
