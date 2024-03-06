@@ -49,5 +49,8 @@ arrayelementos.push(6)
 arrayelementos.push(7)
 arrayelementos.push(8)
 console.log("arrays agregados:", arrayelementos);
-
-  
+// eliminar el ultimo elementoal array utulizando pop
+let arrayeliminacion = ["uno","dos","tres",];
+let ultimoelementoeliminado = arrayeliminacion.pop();
+console.log("Elemento eliminado:", ultimoElementoEliminado);
+console.log("Array después de eliminar el último elemento:", arrayeliminacion);
