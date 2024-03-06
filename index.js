@@ -72,3 +72,7 @@ let arraystring = ["uno", "dos", "tres"];
 let arrayComoString = arraystring.join(", ");
 // Mostrar el string resultante en la consola
 console.log(arrayComoString);
+// Obtener una subsección del array desde el segundo elemento desde el final hasta el final
+let arrayseccion = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let subseccion = array.slice(-3);
+console.log("Subsección del array:", subseccion);
