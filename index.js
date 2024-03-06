@@ -67,3 +67,8 @@ console.log("Array después de eliminar el primer elemento:", arrayeliminacion);
 //Para obtener una opcion del array arrayeliminacion  se utiliza slice()
 let porcionArray = arrayeliminacion.slice(1, 3);
 console.log("Porción del array:", porcionArray);
+// Convertir el array en un string usando join()
+let arraystring = ["uno", "dos", "tres"];
+let arrayComoString = arraystring.join(", ");
+// Mostrar el string resultante en la consola
+console.log(arrayComoString);
