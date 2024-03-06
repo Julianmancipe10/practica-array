@@ -52,7 +52,7 @@ console.log("arrays agregados:", arrayelementos);
 // eliminar el ultimo elementoal array utulizando pop
 let arrayeliminacion = ["uno","dos","tres",];
 let ultimoelementoeliminado = arrayeliminacion.pop();
-console.log("Elemento eliminado:", ultimoElementoEliminado);
+console.log("Elemento eliminado:", ultimoelementoEliminado);
 console.log("Array después de eliminar el último elemento:", arrayeliminacion);
 // agragar elemeno al inicio de el array 
 let nuevoElemento1 = "cero" ;
@@ -60,3 +60,7 @@ let nuevoElemento2 = "negativo";
 arrayeliminacion.unshift(nuevoElemento2);
 arrayeliminacion.unshift(nuevoElemento1);
 console.log("Array después de agregar al principio:", arrayeliminacion);
+// eliminar el primer elemento del array arrayeliminacion  utilizando shift
+let primerElementoEliminado = arrayeliminacion.shift();
+console.log("Elemento eliminado al principio:", primerElementoEliminado);
+console.log("Array después de eliminar el primer elemento:", arrayeliminacion);
