@@ -81,3 +81,8 @@ let originasinmodificarlArray = [1, 2, 3, 4, 5];
 let removedItems = originalArray.slice(2, 4); 
 console.log("Elementos eliminados:", removedItems);
 console.log("Original array:",originasinmodificarlArray);
+// Agregar múltiples elementos al principio del array utilizando unshift() con spread operator
+let Arraymultiple = [3, 4, 5];
+let newElements = [1, 2];
+originalArray.unshift(...newElements);
+console.log(Arraymultiple);
